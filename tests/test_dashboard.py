@@ -9,5 +9,3 @@ class TestDashboard:
 
         assert dashboard_page.get_heading_page() == "Dashboard Explore"
         assert dashboard_page.get_text_body_dashboard() == "Start creating your amazing application!"
-
-        browser.implicitly_wait(10)
